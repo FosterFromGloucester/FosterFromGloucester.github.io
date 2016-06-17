@@ -2765,14 +2765,13 @@ i.large {
 
 img.responsive-img,
 video.responsive-video {
-  max-width: 60%;
-  display:block;
-  padding-top:30px;
-  margin:auto;
+  max-width: 80%;
+  margin-top:30px;
+  margin-left:30px
 }
 
 .title{
-	text-align:center;.
+	text-align:center;
 }
 
 .pagination li {
@@ -4261,9 +4260,11 @@ nav .input-field label.active {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
     line-height: 64px;
+
   }
   .navbar-fixed {
     height: 64px;
+
   }
 }
 
@@ -6670,7 +6671,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .side-nav {
   position: fixed;
-  width: 250px;
+  width: 350px;
   left: 0;
   top: 0;
   margin: 0;
@@ -6724,7 +6725,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav a:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.16);
 }
 
 .side-nav a.btn, .side-nav a.btn-large, .side-nav a.btn-large, .side-nav a.btn-flat, .side-nav a.btn-floating {
@@ -6752,12 +6753,13 @@ input[type=range]:focus::-ms-fill-upper {
   width: 10px;
   position: fixed;
   top: 0;
+
   z-index: 998;
 }
 
 .side-nav.fixed a {
   display: block;
-  padding: 0 30px;
+  padding: 0 50px;
   color: #ffffff;
 }
 

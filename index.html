@@ -11,16 +11,67 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
+
 <body>
   <header>
+      <nav class="top-nav">
+          <div class="container">
+              <div class="nav-wrapper"><a class="nav-header">About</a></div>
+          </div>
+      </nav>
+
       <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a></div>
       <ul id="nav-mobile" class="side-nav fixed">
 	  	<img class=" rectangle responsive-img" src="me.jpg">
 		<h3 class ="title" >James Foster</h3>
         <li class="bold"><a href="#" class="waves-effect waves-light">About</a></li>
-        <li class="bold"><a href="#" class="waves-effect waves-light">Projects</a></li>
+        <li class="bold">
+            <ul class="collapsible collapsible-accordion bold">
+                <li>
+                    <a class="collapsible-header waves-effect waves-light">Projects<i class="mdi-navigation-arrow-drop-down"></i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li class="bold"><a href="#" >MicroMob</a></li>
+                            <li class="bold"><a href="#" >RaspberryPi</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
       </ul>
   </header>
+
+  <div class="container">
+        <p class="flow-text main-body">
+            Computer Science with Games and Design graduate student at the <a href="www.uct.ac.za">University of Cape Town</a> where I am in my fourth year of university and studying towards an Honours degree at the end of this year.
+        </p>
+
+        <h3 class="header">Past</h3>
+
+        <p class="flow-text main-body">
+            I have tutored Computer Science for two years to both first and third year students. Two internships have been completed at <a href="www.uct.ac.za">WhereIsMyTransport</a> and I have published a paper at <a href="www.uct.ac.za">SAICSIT</a> which is available <a href="www.uct.ac.za">here</a>  
+        </p>
+
+        <h3 class="header">Present</h3>
+
+        <p class="flow-text main-body">
+            This year I am working in collaboration with the Chemistry department on the development of a mobile application for reading microplate assays. The <a href="www.uct.ac.za">website</a> for our project gives more detail. 
+         
+        </p>
+
+        <p class="flow-text main-body">
+            My Github site also contains a few projects and code that I am particully proud of and the mobile application I developed for WhereIsMyTransport can be found <a href="www.uct.ac.za">here.</a>
+        </p>
+
+        <h3 class="header">Other Pages</h3>
+          <div class="collection header">
+              <a href="#!" class="collection-item">Facebook</a>
+              <a href="#!" class="collection-item">LinkedIn</a>
+              <a href="#!" class="collection-item">GitHub</a>
+          </div>
+
+
+  </div>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

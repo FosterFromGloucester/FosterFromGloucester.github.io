@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿link to a <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -20,58 +20,86 @@
           </div>
       </nav>
 
-      <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a></div>
-      <ul id="nav-mobile" class="side-nav fixed">
-	  	<img class=" rectangle responsive-img" src="me.jpg">
-		<h3 class ="title" >James Foster</h3>
-        <li class="bold"><a href="#" class="waves-effect waves-light">About</a></li>
-        <li class="bold">
-            <ul class="collapsible collapsible-accordion bold">
-                <li>
-                    <a class="collapsible-header waves-effect waves-light">Projects<i class="mdi-navigation-arrow-drop-down"></i></a>
-                    <div class="collapsible-body">
-                        <ul>
-                            <li class="bold"><a href="#" >MicroMob</a></li>
-                            <li class="bold"><a href="#" >RaspberryPi</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </li>
+      <ul id="slide-out" class="side-nav fixed">
+          <img class=" rectangle responsive-img" src="me.jpg">
+          <h3 class="title">James Foster</h3>
+          <li class="bold"><a href="#" class="waves-effect waves-light">About</a></li>
+          <li class="bold">
+              <ul class="collapsible collapsible-accordion bold">
+                  <li>
+                      <a class="collapsible-header waves-effect waves-light">Projects<i class="mdi-navigation-arrow-drop-down"></i></a>
+                      <div class="collapsible-body">
+                          <ul>
+                              <li class="bold"><a href="#">MicroMob</a></li>
+                              <li class="bold"><a href="#">RaspberryPi</a></li>
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+          </li>
       </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
   </header>
 
-  <div class="container">
-        <p class="flow-text main-body">
-            Computer Science with Games and Design graduate student at the <a href="www.uct.ac.za">University of Cape Town</a> where I am in my fourth year of university and studying towards an Honours degree at the end of this year.
-        </p>
+ <main
 
-        <h3 class="header">Past</h3>
+     <div class="container">
+         <p class="flow-text main-body">
+             Computer Science with Games and Design graduate student at the <a href="http://www.uct.ac.za">University of Cape Town</a> where I am in my fourth year of university and studying towards an Honours degree at the end of this year.
+         </p>
 
-        <p class="flow-text main-body">
-            I have tutored Computer Science for two years to both first and third year students. Two internships have been completed at <a href="www.uct.ac.za">WhereIsMyTransport</a> and I have published a paper at <a href="www.uct.ac.za">SAICSIT</a> which is available <a href="www.uct.ac.za">here</a>  
-        </p>
+         <h3 class="header">Past</h3>
 
-        <h3 class="header">Present</h3>
+         <p class="flow-text main-body">
+             I have tutored Computer Science for two years to both first and third year students. Two internships have been completed at <a href="http://www.whereismytransport.com/">WhereIsMyTransport</a> and I have published a paper at <a href="http://saicsit2015.suinformatics.com/">SAICSIT</a> which is available <a href="www.uct.ac.za">here</a>
+         </p>
 
-        <p class="flow-text main-body">
-            This year I am working in collaboration with the Chemistry department on the development of a mobile application for reading microplate assays. The <a href="www.uct.ac.za">website</a> for our project gives more detail. 
-         
-        </p>
+         <h3 class="header">Present</h3>
 
-        <p class="flow-text main-body">
-            My Github site also contains a few projects and code that I am particully proud of and the mobile application I developed for WhereIsMyTransport can be found <a href="www.uct.ac.za">here.</a>
-        </p>
+         <p class="flow-text main-body">
+             This year I am working in collaboration with the Chemistry department on the development of a mobile application for reading microplate assays. The <a href="www.uct.ac.za">website</a> for our project gives more detail.
 
-        <h3 class="header">Other Pages</h3>
-          <div class="collection header">
-              <a href="#!" class="collection-item">Facebook</a>
-              <a href="#!" class="collection-item">LinkedIn</a>
-              <a href="#!" class="collection-item">GitHub</a>
-          </div>
+         </p>
+
+         <p class="flow-text main-body">
+             My Github site also contains a few projects and code that I am particully proud of and the mobile application I developed for WhereIsMyTransport can be found <a href="https://play.google.com/store/apps/details?id=mobi.wimt.findmyway">here.</a>
+         </p>
+
+
+         <a href="#!" class="waves-effect waves-teal btn waves-color-demo" onclick="Materialize.showStaggeredList('#staggered-test')">Click for my Links</a>
+         <ul id="staggered-test">
+             <li class="flow-text">
+                 <a href="https://www.facebook.com/james.foster.92505" class="collection-item">Facebook</a>
+             </li>
+             <li class="flow-text">
+                 <a href="https://za.linkedin.com/in/james-foster-9b5481114" class="collection-item">LinkedIn</a>
+             </li>
+             <li class="flow-text">
+                 <a href="https://github.com/FosterFromGloucester" class="collection-item">GitHub</a>
+             </li>
+         </ul>
+
+         <div id="modal1" class="modal">
+             <div class="modal-content">
+                 <h4>Modal Header</h4>
+                 <p>A bunch of text</p>
+             </div>
+             <div class="modal-footer">
+                 <li><a class="btn-floating red"><i class="material-icons">mail</i></a></li>
+             </div>
+         </div>
+
+
+         <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+             <a class="btn-floating btn-large red">
+                 <i class="large material-icons">mail</i>
+             </a>
+         </div>
 
 
   </div>
+    </main>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

@@ -2810,7 +2810,15 @@ video.responsive-video {
   float: none;
 }
 
+header, main, footer {
+      padding-left: 240px;
+    }
+
 @media only screen and (max-width: 992px) {
+    header, main, footer {
+        padding-left: 0;
+      }
+
   .pagination {
     width: 100%;
   }
@@ -4252,8 +4260,12 @@ nav .input-field label.active {
   z-index: 998;
 }
 
+#staggered-test li{
+    opacity:0;
+}
+
 .nav-header{
-    margin-left:28%;
+    margin-left:6%;
     font-size:2rem;
 }
 
@@ -4890,6 +4902,11 @@ small {
   pointer-events: none;
 }
 
+.btnlinks{
+    background-color:white;
+}
+
+
 .btn.disabled:hover, .disabled.btn-large:hover,
 .btn-floating.disabled:hover,
 .btn-large.disabled:hover,
@@ -4910,8 +4927,8 @@ small {
 
 .btn, .btn-large {
   text-decoration: none;
-  color: #fff;
-  background-color: #26a69a;
+  color: #ee6e73;
+  background-color: #FFFFFF;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
@@ -4919,7 +4936,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
+  background-color: #FFFFFF;
 }
 
 .btn-floating {
@@ -5318,13 +5335,11 @@ a.waves-effect .waves-ripple {
 
 .main-body{
     color:black;
-    margin-left:10%;
 }
 
 .header{
     color: #ee6e73;
     font-weight: 300;
-    margin-left:10%;
 }
 
 .collapsible-header {

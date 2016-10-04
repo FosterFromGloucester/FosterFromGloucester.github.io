@@ -1067,6 +1067,13 @@
   color: #a7ffeb !important;
 }
 
+.sidenavbar{
+    margin-top:20px;
+    margin-left:2px;
+    color: #FFFFFF;
+    background-color: #26a69a;
+}
+
 .teal.accent-2 {
   background-color: #64ffda !important;
 }
@@ -4107,6 +4114,11 @@ nav {
 
 nav a {
   color: #fff;
+}
+
+.nav-button {
+  background: url('facebook-logo.png') left center no-repeat;
+  padding-left: 15px;
 }
 
 nav i,

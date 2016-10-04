@@ -1,14 +1,15 @@
-﻿link to a <!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>James Foster</title>
+  <title>James P. Foster</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 
 
@@ -26,7 +27,7 @@
                           <a class="collapsible-header waves-effect waves-light">Projects<i class="mdi-navigation-arrow-drop-down"></i></a>
                           <div class="collapsible-body">
                               <ul>
-                                  <li class="bold"><a href="#">MicroMob</a></li>
+                                  <li class="bold"><a href="http://jamesfoster.co.za/MicroMob/">MicroMob</a></li>
                                   <li class="bold"><a href="#">RaspberryPi</a></li>
                               </ul>
                           </div>
@@ -35,7 +36,7 @@
               </li>
           </ul>
       </div>
-      <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <i href="#" data-activates="slide-out" class="button-collapse fa fa-bars sidenavbar" style="font-size:40px;"></i>
 
   </header>
 
@@ -50,18 +51,18 @@
          <h3 class="header">Past</h3>
 
          <p class="flow-text main-body">
-             I have tutored Computer Science for two years to both first and third year students. Two internships have been completed at <a href="http://www.whereismytransport.com/">WhereIsMyTransport</a> and I have published a paper at <a href="http://saicsit2015.suinformatics.com/">SAICSIT</a> which is available <a href="www.uct.ac.za">here</a>
+             I have tutored Computer Science for two years to both first and third year students. I've completed two internships at <a href="http://www.whereismytransport.com/">WhereIsMyTransport</a> and I have published a paper at <a href="http://saicsit2015.suinformatics.com/">SAICSIT</a> which is available <a href="http://pubs.cs.uct.ac.za/archive/00001047/">here</a>
          </p>
 
          <h3 class="header">Present</h3>
 
          <p class="flow-text main-body">
-             This year I am working in collaboration with the Chemistry department on the development of a mobile application for reading microplate assays. The <a href="www.uct.ac.za">website</a> for our project gives more detail.
+             This year I am working in collaboration with the UCT Chemistry department on the development of a mobile application for reading microplate assays. The <a href="http://jamesfoster.co.za/MicroMob/">website</a> for our project gives more detail.
 
          </p>
 
          <p class="flow-text main-body">
-             My Github site also contains a few projects and code that I am particully proud of and the mobile application I developed for WhereIsMyTransport can be found <a href="https://play.google.com/store/apps/details?id=mobi.wimt.findmyway">here.</a>
+             My Github site also contains a few projects and code that I am particularly proud of and the Android application I developed for WhereIsMyTransport can be found <a href="https://play.google.com/store/apps/details?id=mobi.wimt.findmyway">here.</a>
          </p>
 
 
@@ -78,7 +79,7 @@
              </li>
 
              <li class="flow-text">
-                 <a href="" class="collection-item">My CV</a>
+                 <a href="https://drive.google.com/file/d/0B4oueKAHGl0UaVJSbjhRZTlRbnM/view?usp=sharing" class="collection-item">My CV</a>
              </li>
          </ul>
 
@@ -94,11 +95,10 @@
 
 
          <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-             <a class="btn-floating btn-large red">
+             <a class="btn-floating btn-large red " onclick="  Materialize.toast('Email Address Copied To Clipboard', 3000, 'rounded')" id="copytext">
                  <i class="large material-icons">mail</i>
              </a>
          </div>
-
 
      </div>
 </main>
@@ -107,6 +107,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/copyemail.js"></script>
 
  </body>
 </html>
